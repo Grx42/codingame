@@ -21,7 +21,7 @@ class Player {
 
             // Write an action using System.out.println()
             // To debug: System.err.println("Debug messages...");
-
+            
 
             // A single line containing one of 4 keywords: SPEED, SLOW, JUMP, WAIT.
             System.out.println("SPEED");

@@ -16,9 +16,6 @@ class Solution {
         String T = in.nextLine();
 
         String lowerT = T.toLowerCase();
-
-        System.err.println(lowerT);
-
         char[] letterAscii = new char[lowerT.length()];
 		String response = "";
 
@@ -33,7 +30,6 @@ class Solution {
                 int substrStart = charToNumber * (L);
 
                 int castLetter = (int) letterAscii[j];
-                //System.err.println(castLetter);
                 if (castLetter >= 97 && castLetter <= 122)
                 {
                     if (letterAscii[j] == 'a')
